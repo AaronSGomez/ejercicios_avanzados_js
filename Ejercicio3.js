@@ -50,7 +50,7 @@ for(let sonido in user.favoritesSounds){
 
 /* console.log(arraysonidos);
 console.log(arraytipos); */
-
+//posiblemente esto sea muy enrevesado. funciona, pero estoy seguro de que hay una forma mas sencilla que no veo ahora
 for(let i=0; i<arraytipos.length; i++){
   sound=arraytipos[i];
   for(let j=0; j<arraysonidos.length;j++){
